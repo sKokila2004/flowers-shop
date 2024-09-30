@@ -1,0 +1,228 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 20px;
+    background-color: rgba(0,0,0,0.1);
+}
+
+.left a {
+    margin-right: 15px; 
+    text-decoration: none;
+    color: black;
+    
+}
+
+.right p {
+    margin: 0 10px; 
+    display: inline;
+}
+.fa {
+    margin-left: 5px; 
+}
+section{
+    display: flex;
+    justify-content: space-between;
+}
+section .icons{
+    margin-top: 30px;
+    margin-right: 70px;
+    display: flex;
+}
+section .icons p{
+    padding-left: 20px;
+}
+section .icons i{
+    color: gray;
+}
+
+
+.navbar {
+    display: flex;
+    flex-direction: row;
+    align-items: flex-start; 
+    background-color: white; 
+    padding: 10px;
+    border-right: 1px solid #ccc; 
+}
+/* koki */
+.search {
+    width: 100%;
+    position: relative;
+    display: flex;
+  }
+  
+  .searchTerm {
+    width: 100%;
+    border: 3px solid #00B4CC;
+    border-right: none;
+    padding: 5px;
+    height: 20px;
+    border-radius: 5px 0 0 5px;
+    outline: none;
+    color: #9DBFAF;
+  }
+  
+  .searchTerm:focus{
+    color: #00B4CC;
+  }
+  
+  .searchButton {
+    width: 40px;
+    height: 36px;
+    border: 1px solid #00B4CC;
+    background: #00B4CC;
+    text-align: center;
+    color: #fff;
+    border-radius: 0 5px 5px 0;
+    cursor: pointer;
+    font-size: 20px;
+  }
+  
+  /*Resize the wrap to see the search bar change!*/
+  .wrap{
+    width: 30%;
+    position: absolute;
+    top: 20%;
+    left: 78%;
+    transform: translate(-50%, -50%);
+  }
+/* koki */
+.nav-item {
+    text-decoration: none; 
+    color: black; 
+    padding: 10px;
+    position: relative; 
+}
+.nav-item:hover {
+    color:gray; 
+}
+.nav-item::after {
+    font-size: 0.8em; 
+    vertical-align: middle; 
+    margin-left: 5px;
+}
+.ww{
+    position: absolute;
+    top: 10%;
+    left: 950px;
+     margin: 5%;
+         
+}
+.ww button{
+    background-color: transparent;
+    color: gray;
+    border: 2px solid gray;
+    height: 40px;
+    width: 200px;
+    padding: 10px;
+    font-size: bold;
+    margin-right: 10%;
+    text-align: left;
+        
+}
+.koki a li{
+    margin-top: 20px;
+}
+
+.o{
+    position: absolute;
+    right: 400px;
+    top: 35%;
+}
+.t{
+    font-size: 50px;
+    position: absolute;
+    top: 30%;
+    left: 350px;
+}
+.v{
+    font-size: 50px;
+    position: absolute;
+    top: 70%;
+    left: 250px;
+}
+.u{
+    position: absolute;
+    top: 100%;
+    left: 600px;
+    
+}
+.u button{
+    background-color: rgba(239, 53, 115);
+    color: aliceblue;
+    border: 2px solid pink;
+    height: 40px;
+    width: 150px;
+    padding: 4px;
+    font-size: bold;
+}
+.x{
+    position: relative;
+}
+.x p{
+    position: absolute;
+    top: 500px;
+    width:45%;
+    font-display: flex;
+}
+.s{
+    position: relative;
+}
+.s p{
+    position: absolute;
+    top: 500px;
+    width:40%;
+    font-display: flex;
+    right: 0%;
+}
+.block .h1{
+    font-size: 50px;
+    color: black;
+    background-color: white;
+
+}
+.block .h2{
+    font-size: 50px;
+    color: white;
+    background-color: gray;
+
+}
+.block .h3{
+    font-size: 50px;
+    color: white;
+    background-color: gray;
+
+}
+section{
+    border: 2px solid gray;
+}
+/* .team .box{
+   display: ;
+} */
+ .team{
+    margin-top: 580px;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 2px solid gray;
+    height: 20rem;
+ }
+ .team .box{
+    border: 2px solid white;
+    padding: 2px;
+ }
+ .box .box1{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border-radius: 20px;
+    height: 40%;
+    width:50%;
+    gap: 40%;
+  
+ }
+ /* footer */
+ 
